@@ -1,13 +1,8 @@
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import MainNavigator from './src/navigation/MainNavigator';
+import {LoginScreen} from './src/screens';
 
-function App(): React.JSX.Element {
-  return (
-    <NavigationContainer>
-      <MainNavigator />
-    </NavigationContainer>
-  );
+function App(): JSX.Element {
+  return <LoginScreen />;
 }
 
 export default App;
